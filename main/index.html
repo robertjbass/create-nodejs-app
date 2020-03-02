@@ -1,11 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="en">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script type="text/javascript" src="app.js"></script>
+    <style>
+        * {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+        }
+        
+        .title {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        .header {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            width: 300%;
+            padding: 0px;
+            font-size: 1.1em;
+        }
+    </style>
+
 </head>
+
 <body>
-    My HTML
+    <script>
+        alert('test');
+    </script>
+    <header class="headers">
+
+        <div>
+            <span class="title">
+                <ul class="header">
+                    <li class="header">save</li>
+                    <li class="header">clear</li>
+                    <li class="header">print</li>
+                </ul>
+            </span>
+            <h1 class="title">Calculator</h1>
+        </div>
+    </header>
+    <section>
+        <div>
+            <h3>txt</h3>
+            <input id="txt" type="text"><br>
+            <h3>num</h3>
+            <input id="num" type="number" placeholder="0.00" step="1.00" min="0.00" max="10000.00" value="0.00">
+        </div>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim et ratione a sapiente ea, omnis sit ad? Nihil nobis ab atque? Hic tempora officia odit. Culpa omnis ducimus quo consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim et
+                ratione a sapiente ea, omnis sit ad? Nihil nobis ab atque? Hic tempora officia odit. Culpa omnis ducimus quo consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim et ratione a sapiente ea, omnis sit ad? Nihil nobis ab atque? Hic tempora officia odit. Culpa omnis ducimus quo consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim et
+                ratione a sapiente ea, omnis sit ad? Nihil nobis ab atque? Hic tempora officia odit. Culpa omnis ducimus quo consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tempora officia odit. Culpa omnis ducimus quo consequatur?
+            </p>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <span>
+                <ul>
+                    <li>one</li>
+                    <li>two</li>
+                    <li>three</li>
+                </ul>
+            </span>
+        </div>
+    </footer>
+
 </body>
+
 </html>
